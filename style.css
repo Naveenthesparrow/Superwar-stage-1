@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  margin: 50px;
+  padding: 20px;
+}
+.hero-one {
+  border: 5px solid #00000049;
+  border-radius: 5px;
+  border-width: 2px;
+  width: 65%;
+  height: 250px;
+  padding-top: 40px;
+}
+h1 {
+  font-weight: 10;
+}
+.hero-two {
+  border: 5px solid #00000049;
+  border-radius: 5px;
+  border-width: 2px;
+  width: 65%;
+  height: 250px;
+  padding-top: 40px;
+}
+.Villan-one {
+  border: 5px solid #00000049;
+  border-width: 2px;
+  border-radius: 5px;
+  width: 65%;
+  height: 250px;
+  padding-top: 40px;
+}
+.Villan-two {
+  border: 5px solid #00000049;
+  border-width: 2px;
+  border-radius: 5px;
+  width: 65%;
+  height: 250px;
+  padding-top: 40px;
+}
+.team1 {
+  display: grid;
+  grid-template-columns: repeat(5, 5fr);
+  grid-gap: 10px;
+  text-align: center;
+}
+.team2 {
+  display: grid;
+  grid-template-columns: repeat(5, 5fr);
+  grid-gap: 10px;
+  position: relative;
+  bottom: 289px;
+  left: 800px;
+  text-align: center;
+}
+.score {
+  font-size: 25px;
+  position: relative;
+  bottom: 130px;
+  left: 550px;
+}
+img {
+  width: 60%;
+  height: auto;
+}
+footer {
+  position: relative;
+  bottom: 200px;
+  left: 600px;
+}
